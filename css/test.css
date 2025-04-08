@@ -1,0 +1,226 @@
+*
+{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* border-style: solid; */
+}
+
+div
+{
+    margin: 5px;
+    padding: 2px;
+}
+.flexbox
+{
+    margin: 40px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+}
+.flexboxBookings
+{
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    background-color:rgb(236, 234, 234);
+}
+header
+{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    height: 95px;
+    background-color: rgb(82, 82, 121);
+    background-size: cover;
+    border-style: solid;
+    border-width: 1px;
+}
+@media(min-width: 601px)
+{
+    main
+    {
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+
+@media(max-width: 600px)
+{
+    main
+    {
+        display: flex;
+        flex-direction: column;
+    }
+}
+footer
+{
+    border-style: solid;
+    border-width: 1px;
+    height: 210px;
+    /* background-image: url(../images/banner3.jpg); */
+    background-color: rgb(82, 82, 121);
+    background-size: cover;
+}
+nav
+{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.left
+{
+    flex-basis: 15vw;
+    padding-left: 15px;
+}
+.right
+{
+    flex-basis: 15vw;
+}
+.margin
+{
+    flex-basis: 10vw;
+}
+.auto
+{
+    flex-grow: auto;
+
+}
+.rest1
+{
+    flex-grow: 8;
+
+}
+.rest2
+{
+    flex-grow: 2;
+}
+.leftcol
+{
+    flex-basis: 8em;
+}
+.centercol
+{
+    flex-grow: 8;
+}
+.rightcol
+{
+    flex-basis: 1;
+}
+.right
+{
+
+    text-align: center;
+    flex-basis: fill;
+
+}
+.rest5
+{
+    flex-grow: 3;
+}
+
+a
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(204, 141, 113, 1);
+    padding: 1em;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    border-style: none;
+    color: black;
+    margin-right: 20px;
+}
+.backgroundbody
+{
+    background-image: url('../images/banner1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.contentbox
+{
+    background-color: rgb(244, 244, 255);
+    border-radius: 10px;
+    width: 30vw;
+    padding: 40px;
+    margin: 40px;
+}
+input
+{
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.button
+{
+    font-weight: bolder;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: chocolate;
+}
+
+.button:hover
+{
+    color: white;
+    cursor: pointer;
+    background-color: rgba(225, 96, 43, 1);
+}
+a:hover
+{
+    background-color: rgba(225, 96, 43, 1);
+    color: white;
+}
+.selectedmenuitem
+{
+    background-color: rgba(225, 96, 43, 1);
+}
+.test
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(204, 141, 113, 1);
+    padding: 1em;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    border-style: none;
+    color: black;
+    margin-right: 20px;
+}
+.p
+{
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+    background-color:rgb(105, 189, 238);
+}
+.buttontest
+{
+    font-weight: bolder;
+    padding: 15px;
+    border-radius: 5px;
+    border-style: solid;
+    border: black;
+    border-width: 3px;
+    background-color: chocolate;
+    width: 100%;
+}
+.buttontest:hover
+{
+    color: white;
+    cursor: pointer;
+    background-color: rgb(245, 105, 5);
+}
+.myiframe
+{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    height: 80vw;
+    border-style: none;
+}
